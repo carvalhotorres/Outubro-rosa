@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.nav-header {
+    height: 20.1vh;
+    background-color: #FF69B4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav-header .logo-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.nav-header img {
+    width: 17vh;
+}
+
+.nav-header p {
+    margin-left: 1rem;
+}
+
+.nav-header .lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header .lista li{
+    list-style-type: none;
+    margin: 0 4rem;
+    display: inline-block;
+    cursor: pointer;
+}
+main{
+    background-color: #FFD9EC;
+
+    p{
+        font-size: 25px;
+        font-family: "Noto Sans", sans-serif;
+        text-align: left;
+        max-width: 38.12rem;
+    }
+    img{
+        padding: 10px;
+        margin: 10px;
+        width: 60.98vh;
+    }
+
+    .outubro1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8rem;
+    }
+    .outubro2{
+        background-color: #FF69B4;
+        padding: 2%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+    }
+    .consci{
+        font-size: 25px;
+        font-family: "Noto Sans", sans-serif;
+        text-align: left;
+        max-width: 43.12rem;
+    }
+
+    .causa{
+        padding: 10px;
+        margin: 10px;
+        width: 67.98vh;
+    }
+    .outubro3{
+        height: 70vh;
+        max-height: 62vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow-x: hidden;  
+    }
+}
+    .outubro3 img{
+        width: 43vh;
+    }
+
+    footer{
+        background-color: #FF69B4;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 24vh;
+   
+     
+        .sociais{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            width: 14%;
+            margin: 6px;
+        }
+
+        .sociais img{
+            width: 5.56rem;
+            margin: 0;
+        }
+
+        .informacoes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       .informacoes p{
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+       }
+       .logo-footer img{
+        width: 10vw;
+       }
+    }
+
+
+
